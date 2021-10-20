@@ -78,5 +78,6 @@ class RestaurantTest {
 
         int orderTotal = restaurant.displayOrderTotal();
 
+        assertEquals(748, orderTotal);
     }
 }
